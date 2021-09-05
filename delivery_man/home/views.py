@@ -11,3 +11,8 @@ def index(request):
         pass
     else:
         return render(request,'index.html')
+def contact(request):
+    if request.method == 'POST':
+        pass
+    else:
+        return render(request,'contact.html')

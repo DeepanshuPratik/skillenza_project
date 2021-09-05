@@ -56,6 +56,7 @@ body *{
     /* -webkit-filter: blur(1px);
     filter: blur(1px);*/
     padding-bottom: 50px; 
+    margin: 50px;
     
 }
 .right-column{
