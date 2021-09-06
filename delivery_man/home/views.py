@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import *
 
 # Create your views here.
 def homepage(request):
@@ -16,3 +17,9 @@ def contact(request):
         pass
     else:
         return render(request,'contact.html')
+def pending(request):
+    if request.method == 'POST':
+        pass
+    else:
+        context = {'orders':Order.objects.all()}
+        return render(request,'pending.html',context)

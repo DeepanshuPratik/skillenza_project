@@ -1,0 +1,28 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block title %}Pending Deliveries{% endblock title %}
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+{% endblock styles %}
+
+{% block content %}
+<div class="pending-list">
+	<h3 style="text-align: center;">Pending Deliveries</h3>
+	{% for order in orders %}
+	<details class="order-details">
+	<summary style="position: relative; width: 100%">
+		<span style="position: absolute; left:15px;">{{order.item}}</span>
+		<span style="position: absolute; right: 15px;">{{order.assignedTo.name}}</span>
+	</summary>
+	<div class="">
+	<p style="position: relative; width: 100%"><strong>Location: </strong ><span style="position: absolute; right: 15px;">{{order.location}}</span></p>
+	<p style="position: relative; width: 100%"><strong>Ordered By: </strong><span style="position: absolute; right: 15px;">{{order.orderedBy}}</span></p>
+	</div>
+	</details>
+	{% empty %}
+	<span>No Pending Deliveries</span>
+	{% endfor %}
+</div>
+{% endblock content %}
