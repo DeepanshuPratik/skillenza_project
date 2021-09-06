@@ -22,4 +22,5 @@ urlpatterns = [
     path('',views.homepage),
     path('index.html',views.index),
     path('contact.html',views.contact),
+    path('pending',views.pending),
 ]
