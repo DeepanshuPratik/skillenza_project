@@ -21,7 +21,7 @@
 ## Requirements 
 #### Can real time intelligence on traffic/roadblocks be generated, that beats Google?
 #### Can a rider always know which are the best places to park?
-#### Can a rider be aware of the expected wait time at a pick up point which can be a restaurant, a dark store or a kirana shop ?
+#### Can a rider be aware of the expected wait time at a pick up point which can be a restaurant or a kirana shop ?
 #### Can intelligence be built around rain and shared real time with the rider network?
 #### Can more accurate ETAs/ predictability of orders be shared with customers based on the above?
 ## Approach Towards Problem Statement
