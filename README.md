@@ -1,4 +1,4 @@
-# TSRO ( Track Specifier and Route Optimizer )
+# TSRO
 ### Deployed for Participation in 
 #### Leap Hackathon | Reimagining Customer Delight
 #### Organized by Skillenza
