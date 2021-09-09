@@ -33,7 +33,7 @@
 #### d. Database: MongoDB
 #### e. API: Weather API
 #### f. Predictive Analysis: ML based Algorithm
-## Flowchart 
+## Deployment in Flowchart 
 ![Flowchart](https://user-images.githubusercontent.com/85666159/132471150-d68a13da-f50b-40c0-98e8-1655395aa890.jpg)
 
 
